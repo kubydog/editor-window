@@ -82,6 +82,7 @@ export const InsertImageDialog = (props) => {
           onClose={onClose}
           initialWidth={500}
           initialHeight={480}
+          maximizeButton={undefined}
           >
           <TabStrip
             selected={selected}
