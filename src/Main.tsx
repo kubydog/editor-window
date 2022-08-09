@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/settings' element={<Settings/>} />
+      <Route path='/readonly' element={<Settings/>} />
     </Routes>
   );
 }

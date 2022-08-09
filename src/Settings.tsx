@@ -6,7 +6,7 @@ const Settings = () => {
   useEffect(()=>{
     dispatch(editable(false));
   }, []);
-  return <p>Settings</p>;
+  return <p>Readonly</p>;
 };
 
 export default Settings;
